@@ -1,0 +1,7 @@
+2017-12-10 21:47:55 WARN  Main:21 - x = 0; exception may occur
+2017-12-10 21:47:55 ERROR Main:13 - / by zero
+java.lang.ArithmeticException: / by zero
+	at com.helpme.Main.divide(Main.java:23)
+	at com.helpme.Main.main(Main.java:11)
+2017-12-10 21:47:55 INFO  Main:11 - result: 2
+2017-12-10 21:47:55 INFO  Main:11 - result: 1
