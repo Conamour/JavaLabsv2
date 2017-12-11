@@ -70,11 +70,8 @@ class ClientHandler extends Thread
                     break;
                 }
 
-                // creating Date object
                 Date date = new Date();
 
-                // write on output stream based on the
-                // answer from the client
                 switch (received) {
 
                     case "Date" :
