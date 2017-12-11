@@ -1,4 +1,4 @@
-public class Ex9Dinner {
+public class Dinner {
 
     public static void main(String[] args) throws InterruptedException {
         Fork[] forks = new Fork[5];

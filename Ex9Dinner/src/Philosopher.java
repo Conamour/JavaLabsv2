@@ -34,8 +34,6 @@ class Philosopher implements Runnable {
             putForks();
         }
     }
-
-    // ######## Start Strategy #########
     static volatile ReentrantLock[] locks = new ReentrantLock[5];
 
     static {
@@ -61,5 +59,4 @@ class Philosopher implements Runnable {
         locks[fork1.number].unlock();
         locks[fork2.number].unlock();
     }
-// ######## End Strategy #########
 }
